@@ -1,0 +1,51 @@
+.conteiner {
+    max-width: 1400px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #EDECF6;
+    display: flex;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-top: 12px;
+    margin-right: 60px;
+}
+    
+.header__nav {
+    margin-top: 20px;
+    color: #515076;
+}
+
+.header__ul {
+    display: flex;
+}
+
+.header__li {
+    margin-right: 40px;
+}
+
+.header__a {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.header__a:hover {
+    background-color: rgba(81, 80, 118, 0.1);
+}
+
+.img__karzina {
+    margin-top: 20px;
+    width: 60px;
+}
