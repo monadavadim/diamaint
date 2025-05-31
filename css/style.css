@@ -1,124 +1,39 @@
-.burger {
-    padding-top: 25px;
-    display: none;
-    font-size: 40px;
-    cursor: pointer;
-  }
-
+.header {
+    width: 100%;
+    min-height: 100px;
+    background-color: #edecf6;
+}
 .conteiner {
     max-width: 1400px;
-    padding: 0 10px;
+    padding: 0px 15px;
     margin: 0 auto;
 }
-
-.header {
-    height: 100px;
-    background-color: #EDECF6;
-    display: flex;
-}
-
 .header__inner {
+    padding-top: 15px;
     display: flex;
     align-items: center;
 }
-
 .header__logo {
-    margin-top: 12px;
-    margin-right: 60px;
-}
-    
-.header__nav {
-    margin-top: 20px;
-    color: #515076;
-}
-
-.header__ul {
-    display: flex;
-}
-
-.header__li {
     margin-right: 40px;
 }
-
+.header__ul {
+    display: flex;
+    color: #515076;
+}
+.header__li {
+    margin-left: 40px;
+}
 .header__a {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    transition: background-color 0.3s ease;
+    transition: all 0.5s;
+    padding: 10px;
 }
-
 .header__a:hover {
-    background-color: rgba(81, 80, 118, 0.1);
+    background: rgba(81, 80, 118, 0.1);
 }
-
-.img__karzina {
-    margin-top: 20px;
-    width: 60px;
+.title {
+    font-size: 230px;
+    font-weight: 400;
+    color: #515076;
+    margin-top: 128px;
+    margin-bottom: 60px;
 }
-
-@media (max-width: 803px) {
-    .header__a {
-        padding-top: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 10px;
-        transition: background-color 0.3s ease;
-    }
-}
-
-@media (max-width: 751px) {
-    .header__li {
-        margin-right: 30px;
-    }
-
-    .header__a {
-        padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        transition: background-color 0.3s ease;
-    }
-}
-
-@media (max-width: 701px) {
-.header__logo {
-    margin-right: 30px;
-}
-
-    .header__li {
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 621px) {
-    .header__logo {
-        margin-right: 10px;
-    }
-    
-        .header__li {
-            margin-top: 10px;
-            margin-right: 10px;
-        }
-    }
-
-    @media (max-width: 550px) {
-
-        .header {
-            height: 130px;
-        }
-
-        .header__ul {
-            display: none;
-            flex-direction: column;
-        }
-
-        .burger {
-            display: block;
-        }
-
-        .header__ul.active {
-            display: flex;
-          }
-    }
-
