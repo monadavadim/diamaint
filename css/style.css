@@ -38,9 +38,7 @@
     margin-bottom: 60px;
 }
 .main__inner {
-    background-image: url(../img/oduvanchik.png);
-    background-repeat: no-repeat;
-    background-position: -180% 30%;
+    background: url(../img/oduvanchik.png) 20px -137px no-repeat, url(../img/listia.png) 8px 386px no-repeat;
 }
 .grid-container {
     display: grid;
@@ -103,7 +101,7 @@
 }
 .e {
     grid-column: 3;
-    grid-row: 2 / span 2; /* объединяет 2 и 3 строки */
+    grid-row: 3;
 }
 
 .main__diamaint-button {
@@ -125,20 +123,56 @@
     background: #63678c;
 }
 .grid-text-1 {
+    margin-top: 250px;
     width: 172px;
     height: 127px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #888794;
 }
 .grid-text-2 {
+    margin-top: 100px;
     width: 391px;
     height: 163px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #888794;
 }
 .grid-text-3 {
+    margin-top: 180px;
     width: 386px;
     height: 298px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #888794;
 }
 .grid-text-4 {
     width: 350px;
     height: 119px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 109%;
+    color: #757aa5;
+    padding-top: 280px;
+}
+.img__stakan {
+    position: relative;
+    top: 105px;
+    left: -105px;
+    width: 1200px;
+}
+.product__title {
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 109%;
+    text-align: center;
+    color: #757aa5;
 }
 
 
