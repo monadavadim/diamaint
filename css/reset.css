@@ -12,3 +12,7 @@ ul, ol {
 	padding: 0;       /* Убирает внутренние отступы */
 	margin: 0;        /* Убирает внешние отступы */
   }
+  button {
+	all: unset;
+	cursor: pointer;
+  }
