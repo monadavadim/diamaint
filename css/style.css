@@ -170,6 +170,9 @@
 .main__product {
     margin-bottom: 180px;
 }
+.main__product .conteiner {
+    background: url(../img/main-product-bg.png) -180px -105px no-repeat;
+}
 .product__title {
     font-weight: 200;
     font-size: 70px;
@@ -217,7 +220,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto 270px;
 }
 .main__product-stock-left h3 {
     font-weight: 275;
@@ -233,6 +236,9 @@
     color: #888794;
     max-width: 333px;
 }
+.main__product-stock-right {
+    position: relative;
+}
 .сircle {
     border-radius: 50%;
     background: #c4c4c6;
@@ -240,12 +246,12 @@
     width: 50px;
     height: 50px;
     line-height: 50px;
-    margin-bottom: 50px;
+    margin: 25px 0px 25px 25px;
 }
 .right-text {
     font-weight: 275;
     font-size: 20px;
-    line-height: 109%;
+    line-height: 125%;
     max-width: 300px;
     color: #757aa5;
     margin-bottom: 50px;
@@ -253,16 +259,73 @@
 .right-text2 {
     font-weight: 300;
     font-size: 18px;
-    line-height: 100%;
+    line-height: 125%;
     color: #888794;
     max-width: 333px;
 }
 .right-text, .right-text2 {
     padding-left: 10px;
 }
+.right-text3 {
+    position: absolute;
+    top: 270px;
+    left: -100px;
+    transform: rotate(-90deg);
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
 .main__product-stock-right {
     display: flex;
     background: #f7f7fa;
     box-shadow: -40px 40px 0 0 #515076;
 }
-
+.main__product__discount {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__product__discount__5 {
+    min-width: 350px;
+    min-height: 600px;
+}
+.main__product__discount__10 {
+    min-width: 350px;
+    min-height: 700px;
+}
+.main__product__discount__20 {
+    min-width: 350px;
+    min-height: 800px;
+}
+.discount__5 {
+    margin-top: 200px;
+    margin-bottom: 7px;
+    padding: 25px 65px;
+    background: rgba(81, 80, 118, 0.1);
+}
+.discount__10 {
+    margin-top: 100px;
+    margin-bottom: 57px;
+    padding: 25px 65px;
+    background: rgba(81, 80, 118, 0.1);
+}
+.discount__20 {
+    padding: 25px 65px;
+    background: rgba(81, 80, 118, 0.1);
+    margin-bottom: 107px;
+}
+.discound__img {
+    margin-bottom: 10px;
+}
+.discound__basket {
+    display: flex;
+}
+.discound__basket-text {
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-right: 5px;
+}
+.discound__basket2 {
+    margin-right: 50px;
+}
