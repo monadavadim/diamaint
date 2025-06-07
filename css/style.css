@@ -214,7 +214,10 @@
     cursor: pointer;
 }
 .main__product-stock {
-    margin-bottom: 270px;
+    margin-bottom: 300px;
+}
+.main__product-stock .conteiner {
+    background: url(../img/vetka.png) 0 0 no-repeat;
 }
 .main__product-stock-inner {
     display: flex;
@@ -285,6 +288,7 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .main__product__discount__5 {
     min-width: 350px;
@@ -318,14 +322,72 @@
 .discound__img {
     margin-bottom: 10px;
 }
+.discound__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136%;
+    color: #515076;
+    padding: 0px 100px;
+}
 .discound__basket {
     display: flex;
+}
+.discound__basket img {
+    cursor: pointer;
 }
 .discound__basket-text {
     text-decoration: line-through;
     opacity: 0.5;
     margin-right: 5px;
+    margin-left: 100px;
 }
 .discound__basket2 {
-    margin-right: 50px;
+    margin-right: 100px;
+}
+.main__product__testing {
+    background: #edecf6;
+}
+.diamaint__testing {
+    text-align: center;
+    position: relative;
+    top: -185px;
+    font-weight: 400;
+    font-size: 330px;
+    line-height: 92%;
+    color: #d6d4e7;
+    margin-bottom: 25px;
+}
+.main__product__testing__inner {
+    position: relative;
+    top: -200px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+}
+.testing__right {
+}
+.testing__right__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #a5a3b9;
+}
+.testing__right__text2 {
+    font-weight: 300;
+    font-size: 120px;
+    line-height: 55%;
+    color: #515076;
+}
+.testing__right__text2 span {
+    font-weight: 200;
+    font-size: 70px;
+    color: #515076;
+}
+.testing__right__text3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #888794;
 }
