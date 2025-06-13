@@ -11,6 +11,9 @@
   </head>
   <body>
     <header class="header">
+      <a class="burger" href="#">
+        <span></span>
+      </a>
       <div class="conteiner">
         <div class="header__inner">
           <div class="header__logo">
@@ -19,19 +22,19 @@
           <nav class="header__nav">
             <ul class="header__ul">
               <li class="header__li">
-                <a href="#" class="header__a">О продукте</a>
+                <a href="#section1" class="header__a">О продукте</a>
               </li>
               <li class="header__li">
-                <a href="#" class="header__a">Каталог</a>
+                <a href="#section2" class="header__a">Каталог</a>
               </li>
               <li class="header__li">
-                <a href="#" class="header__a">Акции</a>
+                <a href="#section3" class="header__a">Акции</a>
               </li>
               <li class="header__li">
-                <a href="#" class="header__a">Полезное</a>
+                <a href="#section4" class="header__a">Полезное</a>
               </li>
               <li class="header__li">
-                <a href="#" class="header__a">Авторы</a>
+                <a href="#section5" class="header__a">Авторы</a>
               </li>
             </ul>
           </nav>
@@ -41,7 +44,7 @@
     <main class="main">
       <div class="conteiner">
         <div class="main__inner">
-          <h1 class="title">Diamaint</h1>
+          <h1 id="section1" class="title">Diamaint</h1>
           <div class="main__diamaint grid-container">
             <h2 class="main__diamaint-title left">
               Натуральная косметика с привкусом Ирландии
@@ -61,7 +64,7 @@
             </p>
           </div>
           <div class="grid-container__2">
-            <a href="#" class="main__diamaint-button b"> Выбрать продукт </a>
+            <a href="#section2" class="main__diamaint-button b"> Выбрать продукт </a>
             <p class="grid-text-1 d">
               Подбираем комплекс специально для вашего типа кожи
             </p>
@@ -88,7 +91,7 @@
       </div>
       <div class="main__product">
         <div class="conteiner">
-          <h3 class="product__title">Выбери свой продукт</h3>
+          <h3 id="section2" class="product__title">Выбери свой продукт</h3>
           <div class="slider__product">
             <div class="slider__product-item">
               <img src="img/product1.png" alt="" width="281px" height="241px" />
@@ -147,7 +150,7 @@
         <div class="conteiner">
           <div class="main__product-stock-inner">
             <div class="main__product-stock-left">
-              <h3>Акции</h3>
+              <h3 id="section3"> Акции</h3>
               <p>
                 Каждый месяц мы отбираем специальную линейку продуктов, которая
                 нравится вам и снижаем цены!
@@ -235,7 +238,7 @@
             </div>
           </div>
           <div class="healthy">
-            <p class="healty__title">Полезно узнать</p>
+            <p id="section4" class="healty__title">Полезно узнать</p>
             <div class="healty__grid">
               <div class="healty__grid-1">
                 <p class="healty__grid-text">Совет</p>
@@ -289,7 +292,7 @@
         <div class="conteiner">
           <div class="authors__inner">
             <div class="autors__left">
-              <p class="autors__tittle">Авторы и идеологи</p>
+              <p id="section5" class="autors__tittle">Авторы и идеологи</p>
               <p class="autors__text">Маша Шестякова</p>
               <p class="autors__text2">
                 Маша — главный идеолог, создатель проекта и по совместительству
@@ -319,6 +322,15 @@
       <div class="conteiner">
         <div class="image-wrapper">
           <img src="img/footer.jpg" alt="image">
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__contacts-title">Контакты</p>
+          <p class="footer__contacts-tel">+7 495 550 50 50</p>
+          <p class="footer__contacts-addres">Москва, Пресенеский Вал 21</p>
+          <div class="footer__contacts-social">
+            <a href="#"><img src="img/fc-icons.svg" alt=""></a>
+            <a href="#"><img src="img/inst-icons.svg" alt=""></a>
+          </div>
         </div>
       </div>
     </footer>
