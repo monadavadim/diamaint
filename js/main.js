@@ -1,13 +1,6 @@
-$(document).ready(function () {
-  $('.slider__product').slick({
-    arrows: true,
-    dots: false,
-    slidesToShow: 3,
-    centerMode: true,
-  });
-});
+const burger = document.getElementById("burger");
+const menu = document.getElementById("header__ul");
 
-$('.burger').on('click', function (e) {
-  e.preventDefault()
-  $('.header__ul').toggleClass('header__ul--open')
+burger.addEventListener("click", () => {
+  header__ul.classList.toggle("active");
 });

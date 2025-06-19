@@ -4,342 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/slide.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon" />
     <title>diomaint</title>
   </head>
   <body>
     <header class="header">
-      <a class="burger" href="#">
-        <span></span>
-      </a>
       <div class="conteiner">
         <div class="header__inner">
           <div class="header__logo">
-            <img src="img/logo.svg" alt="logo" />
+            <img src="img/logo.svg" alt="" />
           </div>
-          <nav class="header__nav">
-            <ul class="header__ul">
+          <nav class="header__nav" >
+            <ul class="header__ul" id="header__ul">
               <li class="header__li">
-                <a href="#section1" class="header__a">О продукте</a>
+                <a class="header__a" href="#">О продукте</a>
               </li>
               <li class="header__li">
-                <a href="#section2" class="header__a">Каталог</a>
+                <a class="header__a" href="#">Каталог</a>
               </li>
               <li class="header__li">
-                <a href="#section3" class="header__a">Акции</a>
+                <a class="header__a" href="#">Акции</a>
               </li>
               <li class="header__li">
-                <a href="#section4" class="header__a">Полезное</a>
+                <a class="header__a" href="#">Полезное</a>
               </li>
               <li class="header__li">
-                <a href="#section5" class="header__a">Авторы</a>
+                <a class="header__a" href="#">Авторы</a>
               </li>
             </ul>
           </nav>
+          <a class="burger" id="burger" href="#">
+            <span></span>
+          </a>
+          <div class="header__social">
+            <a class="header__social-inst" href="#">Instagram</a>
+            <a class="header__social-fc" href="#">Facebook</a>
+          </div>
         </div>
       </div>
     </header>
-    <main class="main">
-      <div class="conteiner">
-        <div class="main__inner">
-          <h1 id="section1" class="title">Diamaint</h1>
-          <div class="main__diamaint grid-container">
-            <h2 class="main__diamaint-title left">
-              Натуральная косметика с привкусом Ирландии
-            </h2>
-            <p class="main__diamaint-text right-1">
-              Diamaint — <span>одуванчик</span> в переводе с ирландского
-            </p>
-            <p class="main__diamaint-text right-2">
-              Косметика, после которой вы уже никогда не будете прежней и
-              обретёте новую жизнь, где наша продукция будет вашим верным
-              спутником и помощником
-            </p>
-            <p class="main__diamaint-text right-3">
-              Используем всю силу природы, а так же новейшие разработки
-              индустрии вкупе традиционными ирландскими рецептами для того,
-              чтобы придать вашей коже здоровый и цветущий вид
-            </p>
-          </div>
-          <div class="grid-container__2">
-            <a href="#section2" class="main__diamaint-button b"> Выбрать продукт </a>
-            <p class="grid-text-1 d">
-              Подбираем комплекс специально для вашего типа кожи
-            </p>
-            <p class="grid-text-2 c">
-              В основе — активные натуральные комплексы, витамины С, А, РР, В И
-              Е, масла, воски, минералы и натуральные солнцезащитные компоненты.
-            </p>
-            <p class="grid-text-3 a">
-              Ингридиенты контролируются по качеству и происхождению.
-              Большинство из них имеют органический сертификат Ecoсert и Soil
-              Association. Сочетание компонентов в каждой линейке подобрано с
-              учетом особенностей типа кожи.
-            </p>
-            <h2 class="grid-text-4 e">
-              Diamaint — только натуральные ингридиенты
-            </h2>
-          </div>
-          <img
-            class="img__stakan"
-            src="img/vihinka.png"
-            alt="стакан в котором ягоды"
-          />
-        </div>
-      </div>
-      <div class="main__product">
-        <div class="conteiner">
-          <h3 id="section2" class="product__title">Выбери свой продукт</h3>
-          <div class="slider__product">
-            <div class="slider__product-item">
-              <img src="img/product1.png" alt="" width="281px" height="241px" />
-              <p class="product-text">Для нормальной кожи</p>
-              <p class="product-text-2">Увлажняющий мусс</p>
-              <div class="product-text-3">
-                <p>2 750 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-            <div class="slider__product-item">
-              <img src="img/product2.png" alt="" width="281px" height="241px" />
-              <p class="product-text">Все равно для какой кожи</p>
-              <p class="product-text-2">Увлажняющая маска</p>
-              <div class="product-text-3">
-                <p>1 750 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-            <div class="slider__product-item">
-              <img src="img/product3.png" alt="" width="281px" height="241px" />
-              <p class="product-text">Для не нормальной кожи</p>
-              <p class="product-text-2">Увлажняющая маска</p>
-              <div class="product-text-3">
-                <p>750 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-            <div class="slider__product-item">
-              <img src="img/product4.jpg" alt="" width="281px" height="241px" />
-              <p class="product-text">Для жирной кожи</p>
-              <p class="product-text-2">Гель для умывания</p>
-              <div class="product-text-3">
-                <p>1 350 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-            <div class="slider__product-item">
-              <img
-                src="img/product5.webp"
-                alt=""
-                width="281px"
-                height="241px"
-              />
-              <p class="product-text">Для сухой кожи</p>
-              <p class="product-text-2">Еще что-то</p>
-              <div class="product-text-3">
-                <p>1 050 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main__product-stock">
-        <div class="conteiner">
-          <div class="main__product-stock-inner">
-            <div class="main__product-stock-left">
-              <h3 id="section3"> Акции</h3>
-              <p>
-                Каждый месяц мы отбираем специальную линейку продуктов, которая
-                нравится вам и снижаем цены!
-              </p>
-            </div>
-            <div class="main__product-stock-right">
-              <div class="right__inner">
-                <div class="сircle">01</div>
-                <p class="right-text">
-                  Invisible symphony - ваша волшебная палочка для борьбы с
-                  несовершенствами
-                </p>
-                <p class="right-text2">
-                  Сочетая энергию природы и возможности науки восстанавливает
-                  вашу кожу, помогает регенерации клеток, разглаживает рельеф,
-                  интенсивно увлажняет надолго.
-                </p>
-                <p class="right-text3">Для нормальной кожи</p>
-              </div>
-              <img src="img/product1.png" alt="" />
-            </div>
-          </div>
-          <div class="main__product__discount">
-            <div class="main__product__discount__5">
-              <div class="discount__5">СКИДКА 5%</div>
-              <img class="discound__img" src="img/discond-5.png" alt="" />
-              <p class="discound__text">
-                Приобретая увлажняющий крем и маску, вы получаете скидку 5% на
-                весь товар
-              </p>
-              <div class="discound__basket">
-                <p class="discound__basket-text">1000</p>
-                <p class="discound__basket2">750 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-            <div class="main__product__discount__10">
-              <div class="discount__10">СКИДКА 10%</div>
-              <img class="discound__img" src="img/discond-10.png" alt="" />
-              <p class="discound__text">
-                Приобретая увлажняющий мусс и гель для умывания, вы получаете
-                скидку 10% на весь товар
-              </p>
-              <div class="discound__basket">
-                <p class="discound__basket-text">1200</p>
-                <p class="discound__basket2">475 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-            <div class="main__product__discount__20">
-              <div class="discount__20">СКИДКА 20%</div>
-              <img class="discound__img" src="img/discond-20.png" alt="" />
-              <p class="discound__text">
-                Приобретая весь набор Invisible symphony, вы получаете скидку
-                20% на весь товар
-              </p>
-              <div class="discound__basket">
-                <p class="discound__basket-text">700</p>
-                <p class="discound__basket2">75 uah</p>
-                <img src="img/product-icon.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="wrapper__background">
-        <div class="conteiner">
-          <div class="main__product__testing">
-            <div class="diamaint__testing">Diamaint</div>
-            <div class="main__product__testing__inner">
-              <img src="img/testing.png" alt="" />
-              <div class="testing__right">
-                <p class="testing__right__text">
-                  Протестировали и довольны результатом
-                </p>
-                <p class="testing__right__text2">6800 <span>женщин</span></p>
-                <p class="testing__right__text3">
-                  96% женщин заметили положительный результат уже после недели
-                  использования линейки средств. Кожа стала более ухоженной,
-                  увлажненной и напитанной. Исчезли или значительно уменьшились
-                  воспаления. А приятный аромат и легкая текстура стали отличным
-                  дополнением с утренне-вечерним ритуалам ухода
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="healthy">
-            <p id="section4" class="healty__title">Полезно узнать</p>
-            <div class="healty__grid">
-              <div class="healty__grid-1">
-                <p class="healty__grid-text">Совет</p>
-                <p class="healty__grid-text2">Что добавить к зимнему уходу</p>
-                <p class="healty__grid-text3">
-                  Зимой кожа лица особенно остро нуждается в уходе. Холод и
-                  ветер, сухость воздуха отапливаемых помещений...
-                </p>
-                <p class="healty__grid-text4">
-                  <span></span><a href="#">читать</a>
-                </p>
-              </div>
-              <div class="healty__grid-2">
-                <p class="healty__grid-text">Совет</p>
-                <p class="healty__grid-text2">Как правильно наносить крем</p>
-                <p class="healty__grid-text3">
-                  Любой тип кожи нельзя сильно натирать при очищении или
-                  тонизировании, все движения...
-                </p>
-                <p class="healty__grid-text4">
-                  <span></span> <a href="#">читать</a>
-                </p>
-              </div>
-              <div class="healty__grid-3">
-                <p class="healty__grid-text">Совет</p>
-                <p class="healty__grid-text2">Как узнать свой тип кожи</p>
-                <p class="healty__grid-text3">
-                  У одних кожа от природы жирная, у других сухая и тонкая,
-                  считается, что в современных условиях...
-                </p>
-                <p class="healty__grid-text4">
-                  <span></span> <a href="#">читать</a>
-                </p>
-              </div>
-              <div class="healty__grid-4">
-                <p class="healty__grid-text">Совет</p>
-                <p class="healty__grid-text2">Как выбрать крем</p>
-                <p class="healty__grid-text3">
-                  7 критериев правильного выбора. Под воздействием окружающей
-                  среды кожа теряет питательные вещества...
-                </p>
-                <p class="healty__grid-text4">
-                  <span></span><a href="#">читать</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="authors">
-        <div class="conteiner">
-          <div class="authors__inner">
-            <div class="autors__left">
-              <p id="section5" class="autors__tittle">Авторы и идеологи</p>
-              <p class="autors__text">Маша Шестякова</p>
-              <p class="autors__text2">
-                Маша — главный идеолог, создатель проекта и по совместительству
-                главный добытчик рецептов. Машиной фишкой является
-                бабушка-ирландка, бывшая модель с бесконечным запасом
-                проверенных на себе народных рецептов.
-              </p>
-              <p class="autors__text3">
-                Мне нравится адаптировать культуру моих предков к современности.
-                Я чувствую, что создаю нить между разными эпохами. И то, что мой
-                продукт делает девушек красивыми и уверенными в себе, помогает
-                мне чувствовать себя счастливой!
-              </p>
-              <div class="autors__images">
-                <img src="img/autors-left1.jpg" alt="" />
-                <img src="img/autors-left2.jpg" alt="" />
-                <img src="img/autors-left3.jpg" alt="" />
-              </div>
-            </div>
-            <img src="img/autors-right.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="conteiner">
-        <div class="image-wrapper">
-          <img src="img/footer.jpg" alt="image">
-        </div>
-        <div class="footer__contacts">
-          <p class="footer__contacts-title">Контакты</p>
-          <p class="footer__contacts-tel">+7 495 550 50 50</p>
-          <p class="footer__contacts-addres">Москва, Пресенеский Вал 21</p>
-          <div class="footer__contacts-social">
-            <a href="#"><img src="img/fc-icons.svg" alt=""></a>
-            <a href="#"><img src="img/inst-icons.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
