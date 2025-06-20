@@ -9,6 +9,7 @@
 .header {
     min-height: 100px;
     background-color: #edecf6;
+    margin-bottom: 65px;
 }
 .header__inner {
     padding-top: 12px;
@@ -19,6 +20,8 @@
     margin-right: 85px;
 }
 .header__nav {
+    width: 534px;
+    font-family: "Montserrat", sans-serif;
     margin-right: auto;
     font-weight: 500;
     font-size: 16px;
@@ -27,10 +30,10 @@
 }
 .header__ul {
     display: flex;
+    justify-content: space-between;
     margin-right: auto;
 }
 .header__li {
-    margin-right: 40px;
 }
 .header__a {
     white-space: nowrap;
@@ -43,6 +46,7 @@
 .header__social {
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 240%;
@@ -55,7 +59,106 @@
     background: rgba(81, 80, 118, 0.1);
 }
 
+/* DIAMAINT */
+.backgrount {
+    margin: 0 auto;
+    max-width: 1919px;
+    background: url(../img/oduvanchik.png) 450px -165px no-repeat;
+}
+.diamaint {
+    
+}
+.diamaint__title {
+    font-family: "Playfair Display", sans-serif;
+    max-width: 953px;
+    font-weight: 400;
+    font-size: 230px;
+    line-height: 92%;
+    color: #515076;
+    padding-top: 85px;
+    margin-bottom: 60px;
+}
+.diamaint__box {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    max-width: 884px;
+    min-height: 459px;
+}
+.diamaint__box__left {
+    
+}
+.diamaint__box__left-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 133%;
+    color: #63678c;
+    max-width: 264px;
+    min-height: 192px;
+}
+.diamaint__box__right {
+}
+.diamaint__box__right-text1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    color: #828282;
+    max-width: 278px;
+    min-height: 50px;
+    margin-bottom: 68px;
+}
+.diamaint__box__right-text1 span {
+    font-weight: 700;
+    color: #8888a8;
+}
+.diamaint__box__right-text2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #888794;
+    max-width: 391px;
+    min-height: 143px;
+    margin-bottom: 24px;
+}
+.diamaint__box__right-text3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #888794;
+    max-width: 391px;
+    min-height: 142px;
+}
+
 /* АДАПТИВ */
+@media (max-width: 1800px) {
+    .backgrount {
+        background: url(../img/oduvanchik.png) 350px -165px no-repeat;
+    }
+}
+@media (max-width: 1700px) {
+    .backgrount {
+        background: url(../img/oduvanchik.png) 250px -165px no-repeat;
+    }
+}
+@media (max-width: 1600px) {
+    .backgrount {
+        background: url(../img/oduvanchik.png) 150px -165px no-repeat;
+    }
+}
+@media (max-width: 1600px) {
+    .backgrount {
+        background: url(../img/oduvanchik.png) 90px -165px no-repeat;
+    }
+}
+@media (max-width: 1000px) {
+    .diamaint__title {
+        font-size: 175px;
+        padding-top: 10px;
+    }
+    .diamaint__box {
+        max-width: 730px;
+    }
+}
 @media (max-width:890px) {
     .burger {
         display: block;
@@ -102,10 +205,34 @@
     .header__ul {
         right: 18%;
     }
+    .diamaint__title {
+        font-size: 160px;
+    }
+    .diamaint__box {
+        max-width: 675px;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width:700px) {
     .header__ul {
         right: 14%;
+    }
+    .diamaint__title {
+        font-size: 130px;
+    }
+    .diamaint__box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .diamaint__box__left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .diamaint__box__right {
+        text-align: center;
+    }
+    .diamaint__box__right-text1 {
+        margin-bottom: 25px;
     }
 }
 @media (max-width:600px) {
@@ -113,11 +240,17 @@
         width: 400px;
         right: 17%;
     }
+    .diamaint__title {
+        font-size: 110px;
+    }
 }
 @media (max-width:500px) {
     .header__ul {
         width: 300px;
         right: 20%;
+    }
+    .diamaint__title {
+        font-size: 95px;
     }
 }
 @media (max-width:400px) {
@@ -128,6 +261,14 @@
     .header__li {
         margin-right: 0px;
     }
+    .diamaint__title {
+        font-size: 80px;
+    }
+@media (max-width:350px) {
+    .diamaint__title {
+        font-size: 70px;
+    }
+}
 }
 @media (max-width:300px) {
     .header__ul {
