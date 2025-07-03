@@ -321,7 +321,7 @@
 /* STOCK */
 
 .stock {
-    padding-bottom: 100px;
+    margin-bottom: 200px;
 }
 .stock__inner {
     display: flex;
@@ -432,6 +432,151 @@
     margin-top: 55px;
 }
 
+/* discount */
+/* discount */
+
+.discount {
+}
+.discount__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1119px;
+    font-family: "Montserrat", sans-serif;
+}
+.discount__5 {
+    max-width: 350px;
+    min-height: 600px;
+}
+.discount__5-header {
+    min-height: 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 136%;
+    color: #515076;
+    background: rgba(81, 80, 118, 0.1);
+}
+.discount__5-header p {
+    line-height: 272%;
+}
+.discount__5-img {
+    width: 100%;
+}
+.discount__5-text {
+    margin: 0 auto;
+    max-width: 272px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136%;
+    color: #515076;
+    margin-bottom: 40px;
+}
+.discount__5-price {
+    margin: 0 auto;
+    max-width: 272px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgba(81, 80, 118, 0.8);
+}
+.discount__5-price span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136%;
+    text-decoration: line-through;
+    color: rgba(81, 80, 118, 0.6);
+}
+.discount__10 {
+    max-width: 350px;
+    min-height: 700px;
+}
+.discount__10-header {
+    min-height: 150px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 136%;
+    color: #515076;
+    background: rgba(81, 80, 118, 0.15);
+    margin-bottom: 50px;
+}
+.discount__10-header p {
+    line-height: 411%;
+}
+.discount__10-img {
+    width: 100%;
+}
+.discount__10-text {
+    margin: 0 auto;
+    max-width: 272px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136%;
+    color: #515076;
+    margin-bottom: 20px;
+}
+.discount__10-price {
+    margin: 0 auto;
+    max-width: 272px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgba(81, 80, 118, 0.8);
+}
+.discount__10-price span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136%;
+    text-decoration: line-through;
+    color: rgba(81, 80, 118, 0.6);
+}
+.discount__20 {
+    max-width: 350px;
+    min-height: 800px;
+}
+.discount__20-header {
+    min-height: 200px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 36px;
+    line-height: 136%;
+    color: #515076;
+    background: rgba(81, 80, 118, 0.2);
+    margin-bottom: 100px;
+}
+.discount__20-header p {
+    line-height: 550%;
+}
+.discount__20-img {
+    width: 100%;
+}
+.discount__20-text {
+    margin: 0 auto;
+    max-width: 272px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136%;
+    color: #515076;
+    margin-bottom: 20px;
+}
+.discount__20-price {
+    margin: 0 auto;
+    max-width: 272px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgba(81, 80, 118, 0.8);
+}
+.discount__20-price span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136%;
+    text-decoration: line-through;
+    color: rgba(81, 80, 118, 0.6);
+}
 
 
 /* АДАПТИВ */
@@ -498,6 +643,9 @@
         margin-left: 230px;
         grid-row: 3;
         grid-column: 2 / 4;
+    }
+    .discount__inner {
+        justify-content: space-evenly;
     }
 }
 @media (max-width: 1100px) {
@@ -803,7 +951,16 @@
         width: 250px;
     }
     .stock__menu-right-box {
-        width: 250px;
+        width: 280px;
+    }
+    .discount__5 {
+        max-width: 300px;
+    }
+    .discount__10 {
+        max-width: 300px;
+    }
+    .discount__20 {
+        max-width: 300px;
     }
 }
 @media (max-width:350px) {
@@ -822,6 +979,30 @@
     .diamaint2__grid5 {
         margin-top: 0px;
     }
+    .discount__5 {
+        max-width: 250px;
+    }
+    .discount__10 {
+        max-width: 250px;
+    }
+    .discount__20 {
+        max-width: 250px;
+    }
+    .discount__20-header {
+        min-height: 144px;
+    }
+    .discount__20-header p {
+        line-height: 400%;
+    }
+    .discount__5-price {
+        justify-content: space-around;
+    }
+    .discount__10-price {
+        justify-content: space-around;
+    }
+    .discount__20-price {
+        justify-content: space-around;
+    }
 }
 @media (max-width:301px) {
     .header__ul {
@@ -838,5 +1019,8 @@
     }
     .stock__menu-right-box-title {
         font-size: 16px;
+    }
+    .discount__20-header p {
+        line-height: 195%;
     }
 }
