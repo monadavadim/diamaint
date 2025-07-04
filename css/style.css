@@ -320,6 +320,16 @@
 /* STOCK */
 /* STOCK */
 
+.bacground-3 {
+    max-width: 1929px;
+    margin: 0 auto;
+    background-image: url(../img/vetka.png);
+    background-repeat: no-repeat;
+    background-position: 0px 230px;
+    background-size: auto;
+    back
+}
+
 .stock {
     margin-bottom: 200px;
 }
@@ -436,6 +446,7 @@
 /* discount */
 
 .discount {
+    padding-bottom: 200px;
 }
 .discount__inner {
     margin: 0 auto;
@@ -578,6 +589,70 @@
     color: rgba(81, 80, 118, 0.6);
 }
 
+/* DIAMAINT3 */
+/* DIAMAINT3 */
+
+.diamaint3__title {
+    margin-bottom: -130px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-size: 330px;
+    line-height: 92%;
+    color: #d6d4e7;
+}
+.background-4 {
+    max-width: 1929px;
+    padding-top: 190px;
+    margin: 0 auto;
+    background-color: #edecf6;
+    
+}
+.diamaint3 {
+    margin-bottom: 200px;
+}
+.diamaint3__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.diamaint3__img {
+}
+.diamaint3__img img {
+    width: 100%;
+}
+.diamaint3__right {
+    max-width: 455px;
+    font-family: "Montserrat", sans-serif;
+}
+.diamaint3__right-text1 {
+    max-width: 343px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #a5a3b9;
+    margin-bottom: 20px;
+}
+.diamaint3__right-text2 {
+    max-width: 313px;
+    font-weight: 200;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+.diamaint3__right-text2 span {
+    font-weight: 300;
+    font-size: 120px;
+    line-height: 109%;
+    color: #515076;
+}
+.diamaint3__right-text3 {
+    max-width: 462px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #888794;
+}
 
 /* АДАПТИВ */
 @media (max-width: 1800px) {
@@ -617,6 +692,13 @@
     }
     .stock__menu-left-text {
         margin-bottom: 0px;
+    }
+    .discount {
+        padding-bottom: 100px;
+    }
+    .diamaint3__title {
+        margin-bottom: -90px;
+        font-size: 230px;
     }
 }
 @media (max-width: 1200px) {
@@ -694,7 +776,23 @@
     .stock__menu-right-box {
         width: 700px;
     }
-    
+    .diamaint3__title {
+        margin-bottom: -60px;
+        font-size: 150px;
+    }
+    .diamaint3__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .diamaint3__right-text1 {
+        margin: 0 auto 20px;
+    }
+    .diamaint3__right-text2 {
+        margin: 0 auto 50px;
+    }
+    .background-4 {
+        padding-top: 100px;
+    }
 }
 @media (max-width:890px) {
     .burger {
@@ -834,6 +932,15 @@
         width: 500px;
     }
 }
+@media (max-width:650px) {
+    .discount {
+        padding-bottom: 30px;
+    }
+    .diamaint3__title {
+        margin-bottom: -40px;
+        font-size: 100px;
+    }
+}
 @media (max-width:600px) {
     .header__ul {
         width: 400px;
@@ -917,6 +1024,12 @@
         padding-bottom: 15px;
     }
 }
+@media (max-width:450px) {
+    .diamaint3__title {
+        margin-bottom: -27px;
+        font-size: 70px;
+    }
+}
 @media (max-width:400px) {
     .header__ul {
         width: 200px;
@@ -961,6 +1074,21 @@
     }
     .discount__20 {
         max-width: 300px;
+    }
+    .diamaint3__right-text1 {
+        font-size: 14px;
+    }
+    .diamaint3__right-text2 span {
+        font-size: 100px;
+    }
+    .diamaint3__right-text2 {
+        font-size: 60px;
+    }
+    .diamaint3__right-text3 {
+        font-size: 14px;
+    }
+    .discount {
+        padding-bottom: 0px;
     }
 }
 @media (max-width:350px) {
