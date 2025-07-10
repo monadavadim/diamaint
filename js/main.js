@@ -24,3 +24,11 @@ $(document).ready(function () {
     ]
   });
 });
+
+new Swiper('.swiper-container', {
+  loop: true,
+  navigation: {
+    nextEl: '.stock__left-button-right',
+    prevEl: '.stock__left-button-left',
+  },
+})
