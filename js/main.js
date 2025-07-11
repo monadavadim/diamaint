@@ -31,4 +31,23 @@ new Swiper('.swiper-container', {
     nextEl: '.stock__left-button-right',
     prevEl: '.stock__left-button-left',
   },
-})
+});
+
+new Swiper('.autors__right-slider', {
+  thumbs: {
+    swiper: ('.autors__slider'),
+  }
+});
+
+new Swiper('.autors__slider', {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 65,
+  breakpoints: {
+    300: {
+      spaceBetween: 5,
+      slidesPerView: 3,
+    },
+  },
+});
+
